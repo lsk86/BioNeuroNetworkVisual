@@ -1,0 +1,36 @@
+# Build / OS
+.DS_Store
+*.swp
+*~
+
+# Simulation outputs
+*.vcd
+pyloric_sim
+*.out
+*.dat
+
+# Compiled software
+software/interface
+*.o
+*.a
+
+# Quartus / FPGA generated (if you add a local project)
+db/
+incremental_db/
+*_sim/
+*.qws
+*.rpt
+*.summary
+*.done
+*.jdi
+*.pin
+*.sof
+*.pof
+*.qar
+*.qarlog
+*.smsg
+output_files/
+greybox_tmp/
+hc_output/
+
+
